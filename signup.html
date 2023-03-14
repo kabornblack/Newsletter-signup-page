@@ -28,18 +28,21 @@
   <body class="text-center">
 
 <main class="form-signin w-100 m-auto">
-  <form>
+  <form action="/" class="forms-signin" method="post">
     <img class="mb-4" src="image/cute.png" alt="" width="112" height="107">
     <h1 class="h3 mb-3 fw-normal">Newsletter Signup</h1>
 
-      <input type="text" class="form-control top" placeholder="John" required autofocus>
-      <input type="text" class="form-control middle" placeholder="Doe">
-      <input type="email" class="form-control bottom" placeholder="name@example.com">
+      <input type="text" name="fName" class="form-control top" placeholder="John" required autofocus>
+      <input type="text" name="lName" class="form-control middle" placeholder="Doe">
+      <input type="email" name="email" class="form-control bottom" placeholder="name@example.com">
 
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Up</button>
     <p class="mt-5 mb-3 text-muted">&copy; Kabiru 2023</p>
   </form>
 </main>
+  <form >
 
+  </form>
+</form>
   </body>
 </html>
